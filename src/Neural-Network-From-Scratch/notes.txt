@@ -1,0 +1,119 @@
+
+
+- the first neural network was made in the 1950's by Frank Rosenblatt
+    - It was called the "Perceptron"
+
+    - the modern version of the perceptron would be the signmoid neuron
+
+
+- Perceptron Neuron:
+    - takes in several binary inputs and returns a single binary output
+    - To compliment the output you have weight which would basically serve as an importance index for each input
+    - each weight is multiplied by the input and summated into a weighted sum
+        - if the weighted sum is greater than some threshold which is held as a real number it outputs a 0 and if its greater
+            then it would output a one.
+    - larger weight indicates a higher interest or importance
+    - You can add multiple "layers" in order to achieve more subtlety  because you can take the input from the previous layer
+        which weighs in the more big picture and then from that big picture u can then go into smaller and smaller areas of
+        that picture and is (basically recursive)?
+
+        - these multiple layers still have a single output
+
+- dot product = summation[1->n](a*b)
+    - w⋅x≡∑jwjxj
+
+- you move the threshold to the other side of the inequality
+    - the threshhold becomes the bias
+        - its called the bias because it decides how likely or unlikely it will get accepted or rejected
+
+- You can use perceptrons to compute elementary logic functions
+    - Ex:
+        - A perceptron with weights (-2, -2) and a bias or threshold of 3
+            - this forms a NAND gate which returns false if all inputs are true
+                - A nand gate is universal for computation so we can use this to compute for any logical function
+
+
+
+- a neural network is a universal turing machine?
+    - is a neural network a more general version of a logic gate?
+
+
+
+- Sigmoid Neuron:
+    -  perceptron is too rigid when it comes to learning so people made the sigmoid neuron
+    -  as w*x+b gets infinitely small it approaches to 0 and when it gets infinitely large it approaches 1
+        - it is only when the function is a modest size where the deviation and nuance can occur and this difference makes
+            the sigmoid more broad than a perceptron
+
+- we can generalize the function f(w*x+b)) and call f(*) an activation function
+
+Exercises:
+    - Sigmoid neurons simulating perceptrons, part I:
+        - A negative number multiplied by a constant c > 0 will always be a negative number.
+        - A positive number multiplied by a constant c > 0 will always be a positive number.
+        - 0 multiplied by a constant c > 0 will always be 0.
+
+    - Sigmoid neurons simulating perceptrons, part II:
+        - the thing outputs a 1/2 every time and a perceptron cannot do that
+        -
+
+
+
+- Architecture of neural networks
+    - RNN's are designed such that the neurons fire after some duration of time.
+    - RNN's looping is good because they are not instantaneous which forms this sort of paradox
+    - RNN can use a vector which stores the input to use for future cases.
+
+
+- A simple network to classify handwritten digits
+    - to classify digits the optimal way to do it is to segment the digits into separate digits
+        - This is easier to make an algorithm for
+            - One idea is to trial different way of segmenting the image and finding the maximum score or confidence that the
+            individual classifier gives out of that.
+
+
+    - we have to classify the individual digits
+        - more difficult
+
+
+    - Why 10 output neruons enstead of 4 output neurons?
+        - I still dont understand this that properly
+
+
+    - Exercise:
+        1, 2, 4, 8
+        8, 4, 2, 1
+
+
+        1*8 - 1 = 7 >= 0
+
+        x
+
+
+- Learning with gradient descent
+    - x = training input - 28*28 = 784 dimensional vector
+    - y = y(x) - corresponding output - 10 dimensional vector
+
+    - Cost function:
+        - C(w,b)≡ 1/12n*∑x ∥y(x)−a∥^2
+            - w: all weights in the network
+            - b: all the biases
+            - a: vector of outputs when x is the input
+            - All of this makes up the quadratic cost function of mean squared error
+            - We want to minimize this cost function
+                - we can use graident descent
+
+    -
+
+
+
+
+
+
+
+
+
+
+
+
+
