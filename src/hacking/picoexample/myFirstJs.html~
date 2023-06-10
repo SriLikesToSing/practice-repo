@@ -1,0 +1,26 @@
+<html>
+	<header>
+		<title>This is a picoCTF JS Example</title>
+		<script>
+		function myFunctionSum(){
+			var number1 = document.getElementById("number1").value;
+			var number2 = document.getElementById("number2").value;
+			var result = number1 + number2;
+			alert(result);
+		}
+		</script>
+	</header>
+	<body> 
+		<h1>JavaScript example to add2 numbers</h1>
+		Input the first number<br>
+		<input type="text" id="number1"> <br>
+		Input the first number<br>
+		<input type="text" id="number2"> <br>
+		<button onclick="myFunctionSum()"> Show alert!
+	</button>
+		</body>
+	
+</html>
+	
+
+				
