@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main()
+
+{
+
+    char firstname[20];
+    char crush[20];
+    int numberOfBabies;
+
+    printf("What is your name? \n");
+    //You need to use andpercand before every variable
+    scanf("%s", &firstName);
+
+
+
+}
