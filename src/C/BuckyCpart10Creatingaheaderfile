@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h> //copies and pastes code from header file
+#include "header.h"
+
+//#define is a constant
+
+//these things on top are called preprossecor directives
+
+int main()
+{
+    int girlsage = (AGE / 2) + 7;
+    printf("%s can date girls %d or older, ", MYNAME, AGE)
+
+
+
+    return 0;
+
+
+
+
+}
