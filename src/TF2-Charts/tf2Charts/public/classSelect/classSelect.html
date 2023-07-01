@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Shop Homepage - Start Bootstrap Template</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+		<%- myCSS.style %>
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#!">Find your statistics</a>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="bg-dark py-5">
+            <div class="container px-4 px-lg-5 my-5">
+                <div class="text-center text-white">
+                    <h1 class="display-4 fw-bolder">Pick a class</h1>
+                    <p class="lead fw-normal text-white-50 mb-0">See individualized statistics or what general achievements you have or need.</p>
+                </div>
+            </div>
+        </header>
+        <!-- Section-->
+		<form method="post" action="/classChooser">
+		<br>
+		<br>
+		<br>
+		<div class="text-center">
+		<input type="submit" name="ach"class="btn btn-warning btn-lg active" value="Find Your General Achievements"/>
+		</div>
+        <section class="py-5">
+            <div class="container px-4 px-lg-5 mt-5">
+                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+								<img class="card-img-top" src="https://wiki.teamfortress.com/w/images/thumb/5/56/Baseball_Bill%27s_Sports_Shine.png/250px-Baseball_Bill%27s_Sports_Shine.png"/>
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Scout</h5>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent text-center">
+								<input type="submit" name="scout"class="btn btn-warning " value="Scout"/>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+							<img class="card-img-top" src="https://wiki.teamfortress.com/w/images/thumb/3/3f/Soldier_taunt_laugh.png/300px-Soldier_taunt_laugh.png"/>
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Soldier</h5>
+                                    <!-- Product reviews-->
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent text-center">
+								<input type="submit" name="soldier" class="btn btn-warning" value="Soldier"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+							<img class="card-img-top" src="https://wiki.teamfortress.com/w/images/thumb/8/81/Pyrotaunt1.PNG/350px-Pyrotaunt1.PNG"/>
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Pyro</h5>
+                                    <!-- Product price-->
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent text-center">
+								<input type="submit" name="pyro" class="btn btn-warning" value="Pyro"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+							<img class="card-img-top" src="https://wiki.teamfortress.com/w/images/thumb/f/fd/Demoman.png/250px-Demoman.png"/>
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Demoman</h5>
+                                    <!-- Product reviews-->
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent text-center">
+								<input type="submit" name="demoman" class="btn btn-warning" value="Demoman"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+							<img class="card-img-top" src="https://wiki.teamfortress.com/w/images/thumb/a/a0/Community_Heavy_Strategy_Header.png/300px-Community_Heavy_Strategy_Header.png"/>
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Heavy</h5>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent text-center">
+								<input type="submit" name="heavy" class="btn btn-warning" value="Heavy"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+							<img class="card-img-top" src="https://wiki.teamfortress.com/w/images/thumb/6/6a/Engineertaunt1.PNG/350px-Engineertaunt1.PNG"/>
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Engineer</h5>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent text-center">
+								<input type="submit" name="engineer" class="btn btn-warning" value="Engineer"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+							<img class="card-img-top" src="https://wiki.teamfortress.com/w/images/thumb/8/88/Medic_taunt_laugh.png/250px-Medic_taunt_laugh.png"/>
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Medic</h5>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent text-center">
+								<input type="submit" name="medic" class="btn btn-warning" value="Medic"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+							<img class="card-img-top" src="https://wiki.teamfortress.com/w/images/thumb/8/8f/Sniper.png/250px-Sniper.png"/>
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Sniper</h5>
+                                    <!-- Product reviews-->
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent text-center">
+								<input type="submit" name="sniper" class="btn btn-warning" value="Sniper"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+							<img class="card-img-top" src="https://wiki.teamfortress.com/w/images/thumb/d/df/Spytaunt3.PNG/350px-Spytaunt3.PNG"/>
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Spy</h5>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent text-center">
+								<input type="submit" name="spy" class="btn btn-warning" value="Spy"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+		</form>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; TF2 Charts 2022</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
