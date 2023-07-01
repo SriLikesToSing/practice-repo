@@ -1,0 +1,24 @@
+{
+  "name": "tf2charts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node ./app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "bootstrap": "^5.2.2",
+    "console-log-html": "^2.0.2",
+    "ejs": "^3.1.8",
+    "express-rate-limit": "^6.6.0",
+    "fs": "^0.0.1-security",
+    "helmet": "^6.0.0",
+    "hpp": "^0.2.3",
+    "https": "^1.0.0",
+    "steamapi": "^2.2.0",
+    "xss-clean": "^0.1.1"
+  }
+}
