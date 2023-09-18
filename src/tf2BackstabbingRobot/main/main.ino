@@ -1,35 +1,38 @@
-#include <Mouse.h>
+String InBytes;
+int LED = 2;
+int micPin=5;
+boolean val= 0;
 
-#include <SoftwareSerial.h>
-
-int isObstaclePin = 2;
-int isObstaclePin2 = 3;
-int right = LOW; //HIGH MEANS NO OBSTACLE
-int left = LOW;
-
-
-void setup() {
-
-  //mouse setup
-  
-  
-  //IR setup
+void setup(){
   Serial.begin(9600);
-  Serial.println("IR SETUP");
-  pinMode(isObstaclePin, INPUT);
-
-  
-  
-    
+  pinMode(LED, OUTPUT);
+  pinMode(micPin, INPUT);
 }
 
-void loop() {
+void loop(){
 
-  right = digitalRead(isObstaclePin);
-  left = digitalRead(isObstaclePin);
+  val = digitalRead(micPin);
+  Serial.println(val);
 
-  if(right == LOW || left == LOW){
-    //simulate mouse click through python script
-    Serial.println("HOLA AMIGOS");
+  if(val==HIGH){
+    digitalWrite(LED, HIGH);
+    Serial.println("on");
+  }else{
+    digitalWrite(LED, LOW);
+    Serial.println("off");
   }
+  /*
+  if(Serial.available() > 0){
+    InBytes = Serial.readStringUntil('\n');
+    if(InBytes == "on"){
+      digitalWrite(LED, HIGH);
+      Serial.write("LED ON");
+    }else if(InBytes == "off"){
+      digitalWrite(LED, LOW);
+      Serial.write("LED OFF");
+    }else{
+      Serial.write("invalid information");
+    }
+  }
+  */
 }
