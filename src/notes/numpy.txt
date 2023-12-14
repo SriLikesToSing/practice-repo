@@ -1,0 +1,100 @@
+what is numpy?
+
+	- numpy gives you a multidimensional array object in which you can do
+	various operations to it
+		- has derived objects like (masked arrays, matrices) 
+		- has fast operations you can do to these objects
+
+		- what is a mask?
+			- masks are used when you want to extract, modify, count or
+			manpiulate certain aspects of an array based on a criteria you
+			came up with.
+				- this is where masks from opencv probably come from.
+					- ex: a mask outputting a frame for a certain rgb value
+
+				- masked array does this?
+
+		- at the core of numpy package is the ndarray object
+			- what is an ndarray?
+				- these are n-dimensional arrays of homogenous data types
+
+			- difference between ndarray and standard python arrays are that
+			numpy arrays are fixed in size at creation
+				- when u change size of ndarray, it destroys current array and
+				creates a new one.
+				- all elements in numpy array are of the same type, so same
+				memory size. 
+
+
+				ex: 1
+
+					 c = []
+					 for x in range(len(a)):
+						 c.append(a[i]*b[i])
+
+					- a much more efficient way to do this would be to:
+					in C
+					for(x = 0; x<rows; x++){
+						c[i] = a[i]*b[i];
+					}
+
+				
+					- however this doesn't give the benefits of python sytnax
+					and quirks, while scaling very bad code amount wise. 
+
+					numpy gives both worlds,  
+
+		why is numpy fast?
+			- Vectorization
+				- vectorization describes the absense of any explicity
+				looping, indexing etc.
+					- this is because all of this is done in precompiled C
+					code
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
