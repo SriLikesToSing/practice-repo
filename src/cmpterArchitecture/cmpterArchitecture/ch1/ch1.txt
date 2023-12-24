@@ -51,13 +51,67 @@ what are computers in the physical sense?
 						- outside is a glass tube
 						-inside this tube contains a heated chathode heater, a
 						grid surrounding it, an anode
+
 							- what is an anode?
+
 								- what is an electrode?
 									- what is an electrical conductor?
+										- an object or material that allows
+									for the flow of charge in directions
+											- this movement creates current
+
+										- 
+
 										- what is charge?
+
+											- a property of matter using the
+											symbol "q" that allows
+											it to experience a certain force
+											when put inside an electromagnetic
+											field
+
+											- electric charges can be
+											postitive or negative
+												- like charges repel, and
+												unlike charges attract
+
+												- 0 net charge is called
+												electrically neutral
+
+											- the net charge of an isolated
+											system is conserved	
+											
+											- electric charge is carried by
+											subatomic particles
+												- negative charge is carried
+												by electrons**
+
+												-postive charge is carried by
+												protons
+													- inside nuclei of atoms
+
+											- charge can be quantized by the
+											unit elementary charge "e", which
+											is about 1.602 x 10^-9 C or
+											Coloumbs  or Ampere*hour<----
+											smallest charge that can exist
+											freely
+												- ion is an atom with net
+												positive charge. Anion is the
+												opposite.
+													
+
+											- electric charges produce
+											electric fields and moving charges
+											produces magnetic fields
+												- a combination of these
+												produces electromagnetic force
+
+
 											- what is matter?
 												- matter is anything with mass
 												and volume
+													
 													- what is mass?
 														- there conceptually
 														seems to be at least 7
@@ -125,6 +179,20 @@ what are computers in the physical sense?
 																			is
 																			gravitational
 																			flux?
+																				- basically
+																				measures
+																				how
+																				much
+																				"gravity"
+																				pours
+																				into
+																				the
+																				window
+																				that
+																				is
+																				the
+																				gravitational
+																				field
 																				- what
 																				is
 																				flux?
@@ -144,13 +212,75 @@ what are computers in the physical sense?
 																					 of
 																					 a
 																					 manifold)
+																						- https://math.stackexchange.com/questions/929149/intuitively-how-do-you-explain-the-concept-of-flux
 
+
+																		 - gravitational
+																		 flux
+																		 is
+																		 equivalent
+																		 to
+																		 newtons
+																		 universal
+																		 law
+																		 of
+																		 gravitation
+																		 	- the flux
+																			over
+																			any
+																			gravitational
+																			field
+																			is
+																			propotional
+																			to
+																			the
+																			mass
+																			enclosed
+																			over
+																			a
+																			closed
+																			surface
+																			
 																	- passive
 																	gravitational
 																	mass:
+																		- measure
+																		of the
+																		strenght
+																		of an
+																		objects
+																		interaction
+																		with a
+																		gravitational
+																		field
+																			- weight/acceleration
+																			- two
+																			objects
+																			in
+																			the
+																			same
+																			gravitational
+																			field
+																			will
+																			experience
+																			different
+																			forces
+																			based
+																			on
+																			the
+																			weight
+																		
 
 
 													- what is volume?
+														- volume is generally
+														thought of as the
+														amount of fluid gas or
+														liquid that the
+														container could hold,
+														rather than the amount
+														of space the container
+														displaces.
 
 			
 
