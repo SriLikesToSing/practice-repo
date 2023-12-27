@@ -87,6 +87,10 @@ what are computers in the physical sense?
 
 				   - A triode has three electrodes, and allows you to amplify
 				   circuits
+				   		- a control grid is placed in between the anode and
+						cathode, and this grid allows for the functionality of
+						an on/off switch or amplification through high voltage
+
 
 
 
@@ -350,6 +354,16 @@ what are computers in the physical sense?
 													displaces.
 
 		
+			- The intel 4004 was the first microprocessor
+				- used 4-bit binary coded decimal digits
+
+			- The IBM PC contained the 8088 microprocessor:
+				- ran at 4.77 MHz
+					- what is hz?
+						- is a unit of frequency
+					- what is a clock signal?
+
+
 
 
 
