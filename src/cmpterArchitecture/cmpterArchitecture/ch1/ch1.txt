@@ -46,275 +46,314 @@ what are computers in the physical sense?
 		
 		- transister was invented in 1947 by intel founders?
 			- vast improvment over vaccum tubes
-				- what are vaccum tubes?
+				- what are vaccum tubes? (thermionic valves)
 					- so you're telling me all computers essentially came from
 					light bulbs....
 
 					- https://en.wikipedia.org/wiki/Vacuum_tube
-						- outside is a glass tube
-						-inside this tube contains a heated chathode heater, a
-						grid surrounding it, an anode
+					- https://www.engineering.com/story/vacuum-tubes-the-world-before-transistors
+
+					- the basic principle of vaccum tubes were based on
+					something called thermionic emission
+						- what is thermionic emission (edison effect)
+							- you heat up an electrode and releases electrons 
+							into the medium
+								- this occurs because the thermal energy given
+								to the free moving charge carrier in a
+								conductor overcomes the work function of the
+								conductor.
+									- what is a charge carrier?
+										- what is an ion?
+											- ion is a particle with some net
+											electrical charge
+												- electron has -1 
+												- hole has +1
+
+										- these charge charriers are moved by
+										an electric field that can exert force
+									and move these particles through a medium.
+									This is more known as an electric current.
+
+									- what is a work function?
+										- is the minimum thermodynamic work
+										needed to remove an electron from a
+										solid to a point in a vaccum.
+
+					- A vaccume tube consisting of only two electrodes is
+					called a diode. 
+						- A diode is an electrical component that allows for a
+						one way flow off current 
+							- diodes are used to convert AC to DC (rectifier)
+
+				   - A triode has three electrodes, and allows you to amplify
+				   circuits
 
 
-							- what is an anode?
-
-								- what is an electrode?
-								
-									- a type of electrical conducter used to
-									make contact with a nonmetallic part of a
-									circuit
-
-										- there is anode, cathode and
-										dielectric cell
-
-											- anode: electrode through which
-											conventional current enters from
-											the elctrical circuit into non
-											metallic cell - 
-
-											- cathode: electrode in which
-											current enters from non metallic
-											to electrical circuit + 
 
 
-									- what is an electrical conductor?
-										- an object or material that allows
-									for the flow of charge in directions
-											- this movement creates current
+					- outside is a glass tube
+					-inside this tube contains a heated chathode heater, a
+					grid surrounding it, an anode
 
-										
-										- essentially for current to flow in a
-										closed circuit, you just need the
-										charged particles to nudge its
-										neighbors, essentially transferring
-										momentum, until the particle is nudged
-										into the load.
+						- what is an anode?
+
+							- what is an electrode?
+							
+								- a type of electrical conducter used to
+								make contact with a nonmetallic part of a
+								circuit
+
+									- there is anode, cathode and
+									dielectric cell
+
+										- anode: electrode through which
+										conventional current enters from
+										the elctrical circuit into non
+										metallic cell - 
+
+										- cathode: electrode in which
+										current enters from non metallic
+										to electrical circuit + 
+
+
+								- what is an electrical conductor?
+									- an object or material that allows
+								for the flow of charge in directions
+										- this movement creates current
+
+									
+									- essentially for current to flow in a
+									closed circuit, you just need the
+									charged particles to nudge its
+									neighbors, essentially transferring
+									momentum, until the particle is nudged
+									into the load.
 .
-										- what is charge?
+									- what is charge?
 
-											- a property of matter using the
-											symbol "q" that allows
-											it to experience a certain force
-											when put inside an electromagnetic
-											field
+										- a property of matter using the
+										symbol "q" that allows
+										it to experience a certain force
+										when put inside an electromagnetic
+										field
 
-											- electric charges can be
-											postitive or negative
-												- like charges repel, and
-												unlike charges attract
+										- electric charges can be
+										postitive or negative
+											- like charges repel, and
+											unlike charges attract
 
-												- 0 net charge is called
-												electrically neutral
+											- 0 net charge is called
+											electrically neutral
 
-											- the net charge of an isolated
-											system is conserved	
-											
-											- electric charge is carried by
-											subatomic particles
-												- negative charge is carried
-												by electrons**
+										- the net charge of an isolated
+										system is conserved	
+										
+										- electric charge is carried by
+										subatomic particles
+											- negative charge is carried
+											by electrons**
 
-												-postive charge is carried by
-												protons
-													- inside nuclei of atoms
+											-postive charge is carried by
+											protons
+												- inside nuclei of atoms
 
-											- charge can be quantized by the
-											unit elementary charge "e", which
-											is about 1.602 x 10^-9 C or
-											Coloumbs  or Ampere*hour<----
-											smallest charge that can exist
-											freely
-												- ion is an atom with net
-												positive charge. Anion is the
-												opposite.
+										- charge can be quantized by the
+										unit elementary charge "e", which
+										is about 1.602 x 10^-9 C or
+										Coloumbs  or Ampere*hour<----
+										smallest charge that can exist
+										freely
+											- ion is an atom with net
+											positive charge. Anion is the
+											opposite.
+												
+
+										- electric charges produce
+										electric fields and moving charges
+										produces magnetic fields
+											- a combination of these
+											produces electromagnetic force
+
+
+										- what is matter?
+											- matter is anything with mass
+											and volume
+												
+												- what is mass?
+													- there conceptually
+													seems to be at least 7
+													concepts of mass
+														- these 7 types
+														are all shown to
+														be propotional or
+														outright equal
+
+
+													- the one from newtons
+													second law uses
+													interial mass
+														- interial mass is
+														the objects
+														tendency to resist
+														acceleration
 													
+													- what is the
+													difference between
+													interial and
+													gravitational mass?
+														- although they
+														are conceptually
+														distinct its not
+														experimentally
+														proven otherwise	
+														- classical
+														mechanics does not
+													offer a compelling
+													reason why they should
+													be equal
 
-											- electric charges produce
-											electric fields and moving charges
-											produces magnetic fields
-												- a combination of these
-												produces electromagnetic force
+														- einstien
+														devloped
+														relativity with
+														the assumption
+														that interial and
+														gravitaional
+														masses are the
+														same
+															- equating
+															this is often
+															called the
+															galilean
+															equivalence
+															principle or
+															the weak
+															equivalence
+															principle 
 
-
-											- what is matter?
-												- matter is anything with mass
-												and volume
-													
-													- what is mass?
-														- there conceptually
-														seems to be at least 7
-														concepts of mass
-															- these 7 types
-															are all shown to
-															be propotional or
-															outright equal
-
-
-														- the one from newtons
-														second law uses
-														interial mass
-															- interial mass is
-															the objects
-															tendency to resist
-															acceleration
-														
-														- what is the
-														difference between
-														interial and
-														gravitational mass?
-															- although they
-															are conceptually
-															distinct its not
-															experimentally
-															proven otherwise	
-															- classical
-															mechanics does not
-														offer a compelling
-														reason why they should
-														be equal
-
-															- einstien
-															devloped
-															relativity with
-															the assumption
-															that interial and
-															gravitaional
-															masses are the
-															same
-																- equating
-																this is often
-																called the
-																galilean
-																equivalence
-																principle or
-																the weak
-																equivalence
-																principle 
-
-																- what is
+															- what is
+															gravitational
+															mass?
+																- active
 																gravitational
-																mass?
-																	- active
+																mass:
+																	- measure
+																	of
+																	strength
+																	of
 																	gravitational
-																	mass:
-																		- measure
-																		of
-																		strength
-																		of
+																	flux
+																		- what
+																		is
 																		gravitational
-																		flux
+																		flux?
+																			- basically
+																			measures
+																			how
+																			much
+																			"gravity"
+																			pours
+																			into
+																			the
+																			window
+																			that
+																			is
+																			the
+																			gravitational
+																			field
 																			- what
 																			is
-																			gravitational
 																			flux?
-																				- basically
-																				measures
-																				how
-																				much
-																				"gravity"
-																				pours
-																				into
+																				- surface
+																				integral
+																				describing
 																				the
-																				window
-																				that
-																				is
+																				flow
+																				of
 																				the
-																				gravitational
-																				field
-																				- what
-																				is
-																				flux?
-																					- surface
-																					integral
-																					describing
-																					the
-																					flow
-																					of
-																					the
-																					surface
-																					(the
-																					 summation
-																					 of
-																					 the
-																					 directions
-																					 of
-																					 a
-																					 manifold)
-																						- https://math.stackexchange.com/questions/929149/intuitively-how-do-you-explain-the-concept-of-flux
+																				surface
+																				(the
+																				 summation
+																				 of
+																				 the
+																				 directions
+																				 of
+																				 a
+																				 manifold)
+																					- https://math.stackexchange.com/questions/929149/intuitively-how-do-you-explain-the-concept-of-flux
 
 
-																		 - gravitational
-																		 flux
-																		 is
-																		 equivalent
-																		 to
-																		 newtons
-																		 universal
-																		 law
-																		 of
-																		 gravitation
-																		 	- the flux
-																			over
-																			any
-																			gravitational
-																			field
-																			is
-																			propotional
-																			to
-																			the
-																			mass
-																			enclosed
-																			over
-																			a
-																			closed
-																			surface
-																			
-																	- passive
-																	gravitational
-																	mass:
-																		- measure
-																		of the
-																		strenght
-																		of an
-																		objects
-																		interaction
-																		with a
+																	 - gravitational
+																	 flux
+																	 is
+																	 equivalent
+																	 to
+																	 newtons
+																	 universal
+																	 law
+																	 of
+																	 gravitation
+																		- the flux
+																		over
+																		any
 																		gravitational
 																		field
-																			- weight/acceleration
-																			- two
-																			objects
-																			in
-																			the
-																			same
-																			gravitational
-																			field
-																			will
-																			experience
-																			different
-																			forces
-																			based
-																			on
-																			the
-																			weight
+																		is
+																		propotional
+																		to
+																		the
+																		mass
+																		enclosed
+																		over
+																		a
+																		closed
+																		surface
 																		
+																- passive
+																gravitational
+																mass:
+																	- measure
+																	of the
+																	strenght
+																	of an
+																	objects
+																	interaction
+																	with a
+																	gravitational
+																	field
+																		- weight/acceleration
+																		- two
+																		objects
+																		in
+																		the
+																		same
+																		gravitational
+																		field
+																		will
+																		experience
+																		different
+																		forces
+																		based
+																		on
+																		the
+																		weight
+																	
 
 
-													- what is volume?
-														- volume is generally
-														thought of as the
-														amount of fluid gas or
-														liquid that the
-														container could hold,
-														rather than the amount
-														of space the container
-														displaces.
-
-			
-
-
+												- what is volume?
+													- volume is generally
+													thought of as the
+													amount of fluid gas or
+													liquid that the
+													container could hold,
+													rather than the amount
+													of space the container
+													displaces.
 
 		
+
+
+
+	
 
 
 
